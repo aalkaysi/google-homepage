@@ -1,0 +1,258 @@
+<style>
+
+#google-logo {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 25vh;
+  margin-bottom:15px;
+
+}
+
+.logo-container{
+    width: 100%
+}
+
+.search{
+    width: 449px;
+    font-size: 16px;
+    margin-left: 40px;
+    font-family: arial, sans-serif;
+    border: hidden;
+    display: flex;
+    outline: none;
+}
+
+#searchcontainer{
+    width: 582px;
+    height: 44px;
+    display: flex;
+    border: 1px;
+    border: solid;
+    border-color: #dfe1e5;
+    border-width: thin;
+    margin: auto;
+    border-radius: 24px;
+    position:relative;
+}
+
+#searchcontainer .mag{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  max-width: 230px;
+    max-height: 25px;
+
+}
+
+#searchcontainer .mic{
+    position: absolute;
+    top: 10px;
+    right: -75px;
+  max-width: 230px;
+    max-height: 25px;
+
+}
+
+#icon{
+    max-width: 200px;
+    max-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position:absolute;
+    margin-top: 8px;
+    
+  
+
+}
+
+#acct{
+    max-width: 220px;
+    max-height: 25px;
+    position: absolute;
+    margin-top: 5px;
+    right: -80px;
+    
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    position: relative;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    
+}
+
+footer li{
+    padding: 0px 0px 0px 27px;
+    color: #5f6368;
+    position: relative;
+    display: inline;
+    margin-top: 12px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#left{
+    float: left;
+    margin-top: 10px;
+    
+}
+#right{
+   float: right;
+   margin-right: 30px;
+   margin-top: 10px;
+}
+
+.lefttop{
+    float: left;
+}
+
+.righttop{
+    
+    float: right;
+    padding-right: 100px;
+   
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#topnav li{
+    padding: 0px 0px 0px 15px;
+    margin-top: 12px;
+    color: #000;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+  
+    
+}
+
+#topnav{
+   position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%
+    
+    
+   
+    
+}
+
+#searchcontainer:hover{
+    box-shadow: 3px 6px 7px -3px #ccc;
+}
+
+.butt{
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 1px;
+    border: solid;
+    border-color: white;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin: 11px 4px 11px 4px;
+    font-family: arial, sans-serif;
+    text-align: center;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    border-radius: 4px;
+    border-width: thin;
+    color: #5f6368;
+}
+
+.butt:hover{
+
+border-color: #d4d0d0
+
+}
+
+#buttonContainer {
+
+text-align: center;
+display: block;
+margin-top: 8px;
+
+}
+
+
+</style>
+
+
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+
+    <div id="topnav">
+    <ul class="lefttop">
+        <li><a href="">About</a></li>
+        <li><a href="">Store</a></li>
+    </ul>
+    <ul class="righttop">
+        <li><a href="">Gmail</a></li>
+        <li><a href="">Images</a></li>
+        <a href=""><img src="images/icon.png" id="icon"></a>
+        <a href=""><img src="images/account.png" id="acct"></a>
+    </ul>
+
+</div>
+<div class="logo-container">
+<img src="google_logo.png" alt="google logo" id="google-logo">
+</div>
+
+<form>
+    <div id="searchcontainer">
+    <input class="search" type="text" placeholder="">
+    <img src="images/clipart322021.png" alt="magnifying" id="mag" class="mag">
+    <a href=""><img src="images/ClipartKey_272205.png" alt="microphone" id="mic" class="mic">
+    </a>
+</div>
+    <div id="buttonContainer">
+    <button class="butt" type="button">Google Search</button>
+    <button class="butt" type="button">I'm Feeling Lucky!</button>
+    </div>
+</form>
+
+<p style="text-align:center;"
+>Hi</p>
+<footer>
+    <ul id="left">
+        <li> <a href="">Advertising</li>
+        <li> <a href="">Business</li>
+        <li> <a href="">How Search works</li>
+    </ul>
+    <ul id="right">
+        <li> <a href="">Privacy</li>
+        <li> <a href="">Terms</li>
+        <li> <a href="">Settings</li>
+    </ul>
+</footer>
+
+</body>
+
+
+
+
+
+</html>
